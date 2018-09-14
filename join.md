@@ -1,4 +1,4 @@
-###我们要查询出广东省下所有市下的所有区，就算没有区也要显示null
+### 我们要查询出广东省下所有市下的所有区，就算没有区也要显示null
 所以我们就要先把广东省下所有的市先查询出来
 
 	select s.id,p.cityName,s.cityName from s_provinces s
